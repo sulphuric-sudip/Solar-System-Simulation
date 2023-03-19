@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id = "body">
+    <div id = "screen">
+      <div id = "top-left-btn-group">
+        <button id = "play" onclick="playPause('Play')">Play</button>
+        <button id = "play" onclick="playPause('Pause')">Pause</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id = "fastButton" onclick="changeSpeed('slow')">-</button>
+        <button id = "speed">Speed</button>
+        <button id = "slowButton" onclick="changeSpeed('fast')">+</button>
+        <br>
+        <br>
+        <button id = "camera" onclick="changeCamera()">Change Angle</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id = "zoomOut" onclick="changeZoom('out')">-</button>
+        <button id = "zoom">Zoom</button>
+        <button id = "zoomIn" onclick="changeZoom('in')">+</button>
+        <br>
+        <br>
+        <button id = "timeDisplay">0 Year(s), 0 Day(s), 0 Hour(s)</button>
+      </div>
+      <div id = "top-right-btn-group">
+        <a href="https://linktr.ee/sudipneupane" target="_blank"><button>Contact Me</button></a>
+      </div>
+      <canvas onwheel = "zoom(event)" id="canvas" width="500" height="500"></canvas>
+    </div>
+    <script src = "script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+#body{
+    background-image: url("images/background.gif");
+    height : 100%;
+    width : 100%;
+    margin: 0 0;
+}
+#screen{
+    text-align: center;
+    height : 100%;
+    width : 100%;
+    margin: 0 0;
+}
+#canvas{
+    margin: 0 0;
+}
+
+#top-left-btn-group{
+    text-align: left;
+    margin: 10px;
+    position: fixed;
+}
+
+#top-right-btn-group{
+    margin: 10px;
+    right: 0px;
+    text-align: right;
+    position: fixed;
+}
+
+button{
+    padding: 5px;
+    font-size: 20px;
+    background: rgba(29, 75, 241, 0.26);
+    border: 10px double var(--bs-btn-bg);
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: white;
+    opacity: 0.84;
+}
+
+button:hover {
+    background: rgba(29,76,241);
+    opacity: 1;
+  }
