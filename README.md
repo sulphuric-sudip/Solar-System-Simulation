@@ -7,8 +7,10 @@ The days of the revolution of a planet and the eccentricity of the planet's orbi
 
 The size of the planet and orbital axis is taken such that they seem realistic for viewing.
 
-The shape of orbit of the planet is in eclipse shape. 
+The shape of orbit of the planet is in eclipse shape. So as form the relation between minor and major axis:
 
-**b = a √(1 - e²)**
+$$ b = a * \sqrt{1-e^2} $$
 
-minor_axis = major_axis √(1 - planet.eccentricity²)
+we get,
+
+$$ minor_{axis} = major_{axis} * \sqrt{1-planet.eccentricity^2} $$
