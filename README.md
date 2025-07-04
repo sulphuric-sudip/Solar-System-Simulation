@@ -1,5 +1,5 @@
 # Solar-System-Simulation
-Preview: [http://sudip-neupane.com.np/solar-system-simulation/](https://planets.sudip-neupane.com.np/)
+Preview: [[http://sudip-neupane.com.np/solar-system-simulation/](https://planets.sudip-neupane.com.np/)](https://planets.sudip-neupane.com.np/)
 
 A 2D canvas element in HTML & JS is used to draw the elements. 
 
